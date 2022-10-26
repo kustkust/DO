@@ -6,5 +6,6 @@ set(CMAKE_EXE_LINKER_FLAGS "-static")
 
 add_subdirectory(src/1)
 add_subdirectory(src/2)
+add_subdirectory(src/3)
 
 add_subdirectory(src/other)
