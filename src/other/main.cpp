@@ -19,7 +19,7 @@ bool Inc(std::string &s) {
 
 int Count(const std::string& s) {
     int count = 0;
-    for (int i = 0; i < s.size() - 4; ++i) {
+    for (int i = 0; i < s.size() - 3; ++i) {
         if (s.substr(i, 4) == "MAMA") {
             ++count;
         }
