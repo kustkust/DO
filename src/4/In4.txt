@@ -1,0 +1,7 @@
+6
+x y z a b c n p 0
+p q r s 0
+p q s 0
+r s 0
+p s r 0
+q r 0

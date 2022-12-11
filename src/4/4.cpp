@@ -44,7 +44,7 @@ void Solve(std::istream &in, std::ostream &out) {
         }
     }
     bool used[128]{};
-    for (bool& b : used) {
+    for (bool &b: used) {
         b = false;
     }
     Vec<char> res(count);
@@ -74,15 +74,65 @@ void Solve(std::istream &in, std::ostream &out) {
     }
 }
 
+void Solve1(std::istream &in, std::ostream &out) {
+    int count;
+    in >> count;
+    Matr<char> edge(count);
+    for (int i = 0; i < count; ++i) {
+        while (true) {
+            char ch = static_cast<char>(in.get());
+            if (ch == '0') {
+                break;
+            }
+            if (ch >= 'a' && ch <= 'z') {
+                edge[i].push_back(ch);
+            }
+        }
+    }
+    Vec<char> M(count, -1);
+    Vec<int> rM(128, -1);
+    Vec<bool> visit(128);
+    Func<bool(int)> dfs = [&](int cur) {
+        for (auto ch: edge[cur]) {
+            if (ch != M[cur] && !visit[ch - 'a']) {
+                visit[ch - 'a'] = true;
+                if (rM[ch - 'a'] == -1 || dfs(rM[ch - 'a'])) {
+                    M[cur] = ch;
+                    rM[ch - 'a'] = cur;
+                    return true;
+                }
+                visit[ch - 'a'] = false;
+            }
+        }
+        return false;
+    };
+    for (int cur = 0; cur < count; ++cur) {
+        visit.assign(128, false);
+        if (!dfs(cur)) {
+            out << "N\n";
+            return;
+        }
+    }
+    out << "Y\n";
+    for (auto ch: M) {
+        out << ch << " ";
+    }
+    out << "\n";
+}
+
 
 int main() {
     Str name;
-    std::cin>> name;
-    if(name=="c") {
-        Solve(std::cin, std::cout);
-    } else {
-        std::ifstream fin(name);
-        std::ofstream fout(name.erase(name.find_last_of('.'), Str::npos) + "_out.txt");
-        Solve(fin, fout);
+    while (true) {
+        std::cin >> name;
+        if (name == "c0") {
+            Solve(std::cin, std::cout);
+        } else if (name == "c1") {
+            Solve1(std::cin, std::cout);
+        } else {
+            std::ifstream fin(name);
+            std::ofstream fout(name.erase(name.find_last_of('.'), Str::npos) + "_out.txt");
+            Solve1(fin, fout);
+        }
     }
 }

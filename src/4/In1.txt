@@ -1,0 +1,7 @@
+4
+a b c d 0
+b c d 0
+c d 0
+d 0
+Y
+abcd

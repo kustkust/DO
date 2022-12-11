@@ -1,0 +1,6 @@
+5
+a i j k l m 0
+k l m 0
+m k 0
+k l 0
+l m 0
