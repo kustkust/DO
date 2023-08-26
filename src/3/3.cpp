@@ -28,7 +28,7 @@ int main() {
         for (int j = 0; j < v_count; ++j) {
             in >> tmp_v;
             if (tmp_v > 0) {
-                v_list[j].push_back({i, tmp_v});
+                v_list[j].emplace_back(i, tmp_v);
                 ++deg_out[i];
             }
         }

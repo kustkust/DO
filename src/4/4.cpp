@@ -9,6 +9,7 @@
 #include <unordered_set>
 #include <stack>
 #include <filesystem>
+#include <functional>
 
 template<class T>
 using Vec = std::vector<T>;

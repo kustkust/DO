@@ -1,0 +1,17 @@
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/1/CMakeFiles/1.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/1/CMakeFiles/edit_cache.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/1/CMakeFiles/rebuild_cache.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/2/CMakeFiles/2.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/2/CMakeFiles/edit_cache.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/2/CMakeFiles/rebuild_cache.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/3/CMakeFiles/3.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/3/CMakeFiles/edit_cache.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/3/CMakeFiles/rebuild_cache.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/4/CMakeFiles/4.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/4/CMakeFiles/edit_cache.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/4/CMakeFiles/rebuild_cache.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/other/CMakeFiles/main.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/other/CMakeFiles/edit_cache.dir
+C:/Users/kust/Programming/C++/DO/cmake-build-debug-mingw/src/other/CMakeFiles/rebuild_cache.dir

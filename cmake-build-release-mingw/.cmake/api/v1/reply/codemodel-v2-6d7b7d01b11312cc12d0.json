@@ -1,0 +1,176 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src/1",
+					"jsonFile" : "directory-src.1-Release-1a2509429e40f3a0d0e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/2",
+					"jsonFile" : "directory-src.2-Release-3ff7e1fe685d15501a33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/3",
+					"jsonFile" : "directory-src.3-Release-23a03bdcb95d966a6670.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/3",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/4",
+					"jsonFile" : "directory-src.4-Release-4f289a261fca0ab6a882.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/4",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/other",
+					"jsonFile" : "directory-src.other-Release-b50165d4268b5704a854.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/other",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "DO",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "1::@bb8822a8894ac9d8bf64",
+					"jsonFile" : "target-1-Release-7628854a1634925b14fd.json",
+					"name" : "1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "2::@3bb1387eb67851f4c49d",
+					"jsonFile" : "target-2-Release-5cfea6c59aa436b06d55.json",
+					"name" : "2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3::@a631a76a631597430351",
+					"jsonFile" : "target-3-Release-ae730852028b23548ec9.json",
+					"name" : "3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "4::@89a65b81cbdcdfd2ae8e",
+					"jsonFile" : "target-4-Release-a16834272515cd98c73d.json",
+					"name" : "4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "main::@50203519297ce9bdb953",
+					"jsonFile" : "target-main-Release-a05581c13260304323cd.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/kust/Programming/C++/DO/cmake-build-release-mingw",
+		"source" : "C:/Users/kust/Programming/C++/DO"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
